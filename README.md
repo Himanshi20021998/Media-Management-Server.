@@ -2,7 +2,7 @@ MEDIA MANAGEMENT SERVER
 
 A Node.js server application that allows users to upload images and videos to the server. It uses Express and the Express File Uploader middleware to handle file uploads. The uploaded files are then stored on Cloudinary, a cloud based image and video management service. The application also sends an email to the user who uploaded the file by using nodemailer, containing a link to the uploaded file.
 
-The application should consists of four files:
+The application is consisting four files:
 
 1. index.js: This file sets up the Express app, connects to the database and Cloudinary, and defines the endpoints for file upload.
 2. /routes/FileUpload.js: This file defines the routes for file upload, which include imageUpload videoUpload, and imageSizeReducer.
